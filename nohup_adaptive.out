@@ -1,0 +1,4 @@
+nohup: ignoring input
+[2026-05-08 06:05:46] [pid 350918] Adaptive turbo starting; GPUs=[0, 1, 2, 3], matrix=16384, poll=3.0s
+[2026-05-08 06:05:46] [pid 350918] Worker PIDs: [350918, 350993, 350994, 350995, 350996]
+[2026-05-08 06:05:47] [pid 350918] status: GPU0=starting, GPU1=starting, GPU2=starting, GPU3=starting

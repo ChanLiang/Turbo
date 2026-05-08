@@ -6,7 +6,8 @@ def gpu_turbo(eps):
     dev_cnt = torch.cuda.device_count()
     for i in range(dev_cnt):
         # 250 acounts for 20% single GPU
-        a.append(torch.rand(500, 2500).to('cuda:'+str(i)))
+        # a.append(torch.rand(3000, 3000).to('cuda:'+str(i))) # 37%
+        a.append(torch.rand(3000, 4000).to('cuda:'+str(i)))
 
     while True:
         if random.random() < eps:
